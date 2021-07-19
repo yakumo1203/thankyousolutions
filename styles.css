@@ -1,0 +1,2043 @@
+/**共通のデザイン**/
+body{
+    margin: 0;
+    font-family: 'Hiragino Kaku Gothic ProN W3';
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: #064780;
+}
+
+h3{
+    color: #064780;
+    padding-left: 3%;
+    display: table-cell;
+    vertical-align: left;
+}
+
+h4{
+    color: #064780;
+    text-align: center;
+}
+
+p{
+    color: #064780;
+}
+
+ul{
+    list-style: none;
+}
+
+footer{
+    text-align: center;
+}
+
+.wrap{
+    overflow: hidden;
+}
+
+/**画面ごとに変更のデザイン**/
+/**PC用**/
+@media screen and (min-width: 1024px){
+    header{
+        background-color: #EDEDF4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .catchy{
+        display: table;
+        width: 100%;
+    }
+
+    .contact{
+        display: table-cell;
+        vertical-align: right;
+    }
+
+    .contact_button{
+        background-color: #064780;
+        color: white;
+        padding: 5px 5px;
+        font-size: 15px;
+    }
+
+    .blue-box1{
+        background-color: #064780;
+        display:table;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .iwamoto-img{
+        width: 410px;
+        height: 500px;
+    }
+
+    .maincatchy-pic{
+        display: table-cell;
+        vertical-align: bottom;
+        padding-left: 5%;
+        width: 40%;
+    }
+
+    .maincatchy-words{
+        display: table-cell;
+        vertical-align: middle;
+        width: 60%;
+        line-height: 80px;
+    }
+
+    .maincatchy-words strong{
+        font-size: 50px;
+    }
+
+    .white-box1{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .question-title{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .question-p{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .gray-box1{
+        background-color:#EDEDF4;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .point-title{
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .points{
+        display: table;
+        width: 100%;
+    }
+
+    .point{
+        display: table-cell;
+        text-align: center;
+    }
+
+    .point img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .white-box2{
+        text-align: center;
+    }
+
+    .coaching-title{
+        padding-top: 40px;
+        font-size: 30px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+    }
+
+    .coaching-description{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .blue-box2{
+        background-color: #064780;
+        padding: 40px 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .reccomend-title{
+        color: white;
+        padding-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .reccomend-list{
+        background-color: white;
+        color: #064780;
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding: 5px 5px;
+        margin-left: -4%;
+    }
+
+    .service-title{
+        padding-top: 100px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+        font-size: 40px;
+    }
+
+    .service-title strong{
+        font-size: 50px;
+    }
+
+    .service1{
+        display: table;
+        width: 100%;
+        text-align: center;
+    }
+
+    .service1 h2{
+        font-size: 30px;
+    }
+
+    .service1 strong{
+        font-size: 50px;
+    }
+
+    .service-pic1{
+        display: table-cell;
+    }
+
+    .service-pic1 img{
+        width: 500px;
+        height: 300px;
+    }
+
+    .service-description1{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .service2{
+        display: table;
+        width: 100%;
+        text-align: center;
+        padding-left: 80px;
+    }
+
+    .service2 h2{
+        font-size: 30px;
+    }
+
+    .service2 strong{
+        font-size: 50px;
+    }
+
+    .service-pic2{
+        display: table-cell;
+    }
+
+    .service-pic2 img{
+        width: 500px;
+        height: 300px;
+    }
+
+    .service-description2{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .problem{
+        padding-top: 100px;
+        font-size: 30px;
+    }
+
+    .solution{
+        padding-top: 50px;
+        font-size: 30px;
+        padding-bottom: 100px;
+    }
+
+    .solution strong{
+        color: red;
+        font-size: 50px;
+    }
+
+    .effectiveness{
+        font-size: 30px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+    }
+
+    .effectiveness-list{
+        background-color: #064780;
+        margin-bottom: 10px;
+        margin-right: 20%;
+        margin-left: 16%;
+        padding: 5px 5px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .gray-box2{
+        background-color: #EDEDF4;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .prof{
+        padding-top: 50px;
+    }
+
+    .gray-box2 img{
+        width: 600px;
+        height: 350px;
+    }
+
+    .career{
+        padding-top: 40px;
+        padding-right: 20%;
+        padding-left: 20%;
+        padding-bottom: 40px;
+    }
+
+    .white-box3{
+        text-align: center;
+    }
+
+    .white-box3 h2{
+        border-bottom: solid 3px #064780;
+        padding-top: 40px;
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+
+    .reputation{
+        background-color: #EDEDF4;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+        margin-bottom: 20px;
+    }
+
+    .reputation p{
+        display: inline-block;
+        text-align: left;
+        padding: 5px 5px;
+    }
+
+    .blue-box3{
+        background-color: #064780;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .blue-box3 h2{
+        color: white;
+        padding-top: 40px;
+        display: inline-block;
+        border-bottom: solid 3px white;
+    }
+
+    .blue-box3 p{
+        color: white;
+    }
+
+    .blue-box3 button{
+        background-color: red;
+        padding: 7px 50px 7px 50px;
+        font-size: 30px;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+/**iPad9.7inch用**/
+@media screen and (max-width: 1024px){
+    header{
+        background-color: #EDEDF4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .catchy{
+        display: table;
+        width: 100%;
+    }
+
+    .catchy h3{
+        font-size: 15px;
+    }
+
+    .contact{
+        display: table-cell;
+        vertical-align: right;
+    }
+
+    .contact_button{
+        background-color: #064780;
+        color: white;
+        padding: 5px 5px;
+        font-size: 15px;
+    }
+
+    .blue-box1{
+        background-color: #064780;
+        display:table;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .iwamoto-img{
+        width: 370px;
+        height: 450px;
+    }
+
+    .maincatchy-pic{
+        display: table-cell;
+        vertical-align: bottom;
+        padding-left: 3%;
+        width: 40%;
+    }
+
+    .maincatchy-words{
+        display: table-cell;
+        vertical-align: middle;
+        width: 60%;
+        font-size: 12px;
+        line-height: 80px;
+    }
+
+    .maincatchy-words strong{
+        font-size: 40px;
+    }
+
+    .white-box1{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .question-title{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .question-p{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .gray-box1{
+        background-color:#EDEDF4;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .point-title{
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .points{
+        display: table;
+        width: 100%;
+    }
+
+    .point{
+        display: table-cell;
+        text-align: center;
+    }
+
+    .point img{
+        width: 280px;
+        height: 280px;
+    }
+
+    .white-box2{
+        text-align: center;
+    }
+
+    .coaching-title{
+        padding-top: 40px;
+        font-size: 25px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+    }
+
+    .coaching-description{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .blue-box2{
+        background-color: #064780;
+        padding: 40px 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .reccomend-title{
+        color: white;
+        padding-bottom: 30px;
+        font-size: 25px;
+    }
+
+    .reccomend-list{
+        background-color: white;
+        color: #064780;
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding: 5px 5px;
+        margin-left: -4%;
+    }
+
+    .service-title{
+        padding-top: 100px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+        font-size: 30px;
+    }
+
+    .service-title strong{
+        font-size: 40px;
+    }
+
+    .service1{
+        display: table;
+        width: 100%;
+        text-align: center;
+    }
+
+    .service1 h2{
+        font-size: 25px;
+    }
+
+    .service1 strong{
+        font-size: 40px;
+    }
+
+    .service-pic1{
+        display: table-cell;
+    }
+
+    .service-pic1 img{
+        width: 450px;
+        height: 270px;
+    }
+
+    .service-description1{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .service2{
+        display: table;
+        width: 100%;
+        text-align: center;
+        padding-left: 50px;
+    }
+
+    .service2 h2{
+        font-size: 25px;
+    }
+
+    .service2 strong{
+        font-size: 40px;
+    }
+
+    .service-pic2{
+        display: table-cell;
+    }
+
+    .service-pic2 img{
+        width: 450px;
+        height: 270px;
+    }
+
+    .service-description2{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .problem{
+        padding-top: 100px;
+        font-size: 25px;
+    }
+
+    .solution{
+        padding-top: 50px;
+        font-size: 25px;
+        padding-bottom: 100px;
+    }
+
+    .solution strong{
+        color: red;
+        font-size: 40px;
+    }
+
+    .effectiveness{
+        font-size: 25px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+    }
+
+    .effectiveness-list{
+        background-color: #064780;
+        margin-bottom: 10px;
+        margin-right: 20%;
+        margin-left: 16%;
+        padding: 5px 5px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .gray-box2{
+        background-color: #EDEDF4;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .prof{
+        padding-top: 50px;
+    }
+
+    .gray-box2 img{
+        width: 500px;
+        height: 310px;
+    }
+
+    .career{
+        padding-top: 40px;
+        padding-right: 20%;
+        padding-left: 20%;
+        padding-bottom: 40px;
+    }
+
+    .white-box3{
+        text-align: center;
+    }
+
+    .white-box3 h2{
+        border-bottom: solid 3px #064780;
+        padding-top: 40px;
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+
+    .reputation{
+        background-color: #EDEDF4;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+        margin-bottom: 20px;
+    }
+
+    .reputation p{
+        display: inline-block;
+        text-align: left;
+        padding: 5px 5px;
+    }
+
+    .blue-box3{
+        background-color: #064780;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .blue-box3 h2{
+        color: white;
+        padding-top: 40px;
+        display: inline-block;
+        border-bottom: solid 3px white;
+    }
+
+    .blue-box3 p{
+        color: white;
+    }
+
+    .blue-box3 button{
+        background-color: red;
+        padding: 7px 50px 7px 50px;
+        font-size: 25px;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+/**iPad用**/
+@media screen and (max-width: 956px) {
+    header{
+        background-color: #EDEDF4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .catchy{
+        display: table;
+        width: 100%;
+    }
+
+    .catchy h3{
+        font-size: 10px;
+    }
+
+    .contact{
+        display: table-cell;
+        vertical-align: right;
+    }
+
+    .contact_button{
+        background-color: #064780;
+        color: white;
+        padding: 5px 5px;
+    }
+    .blue-box1{
+        background-color: #064780;
+        display:table;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .iwamoto-img{
+        width: 280px;
+        height: 380px;
+    }
+
+    .maincatchy-pic{
+        display: table-cell;
+        vertical-align: bottom;
+        padding-left: 0%;
+        width: 40%;
+    }
+
+    .maincatchy-words{
+        display: table-cell;
+        vertical-align: middle;
+        width: 60%;
+        font-size: 10px;
+        line-height: 50px;
+    }
+
+    .maincatchy-words strong{
+        font-size: 30px;
+    }
+
+    .white-box1{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .question-title{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .question-p{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .gray-box1{
+        background-color:#EDEDF4;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .point-title{
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .points{
+        display: table;
+        width: 100%;
+    }
+
+    .point{
+        display: table-cell;
+        text-align: center;
+    }
+
+    .point img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .white-box2{
+        text-align: center;
+    }
+
+    .coaching-title{
+        padding-top: 40px;
+        font-size: 20px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+    }
+
+    .coaching-description{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .blue-box2{
+        background-color: #064780;
+        padding: 40px 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .reccomend-title{
+        color: white;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .reccomend-list{
+        background-color: white;
+        color: #064780;
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+
+    .service-title{
+        padding-top: 100px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+        font-size: 30px;
+    }
+
+    .service-title strong{
+        font-size: 40px;
+    }
+
+    .service1{
+        display: table;
+        width: 100%;
+        text-align: center;
+    }
+
+    .service1 h2{
+        font-size: 20px;
+    }
+
+    .service1 strong{
+        font-size: 40px;
+    }
+
+    .service-pic1{
+        display: table-cell;
+    }
+
+    .service-pic1 img{
+        width: 300px;
+        height: 150px;
+    }
+
+    .service-description1{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .service2{
+        display: table;
+        width: 100%;
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    .service2 h2{
+        font-size: 20px;
+    }
+
+    .service2 strong{
+        font-size: 40px;
+    }
+
+    .service-pic2{
+        display: table-cell;
+    }
+
+    .service-pic2 img{
+        width: 300px;
+        height: 150px;
+    }
+
+    .service-description2{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .problem{
+        padding-top: 100px;
+        font-size: 20px;
+    }
+
+    .solution{
+        padding-top: 50px;
+        font-size: 20px;
+        padding-bottom: 100px;
+    }
+
+    .solution strong{
+        color: red;
+        font-size: 40px;
+    }
+
+    .effectiveness{
+        font-size: 20px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+    }
+
+    .effectiveness-list{
+        background-color: #064780;
+        margin-bottom: 10px;
+        margin-right: 20%;
+        margin-left: 15%;
+        padding: 5px 5px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .gray-box2{
+        background-color: #EDEDF4;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .prof{
+        padding-top: 50px;
+        font-size: 20px;
+    }
+
+    .gray-box2 img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .career{
+        padding-top: 40px;
+        padding-right: 20%;
+        padding-left: 20%;
+        padding-bottom: 40px;
+    }
+
+    .white-box3{
+        text-align: center;
+    }
+
+    .white-box3 h2{
+        border-bottom: solid 3px #064780;
+        padding-top: 40px;
+        display: inline-block;
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+
+    .reputation{
+        background-color: #EDEDF4;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+        margin-bottom: 20px;
+    }
+
+    .reputation p{
+        display: inline-block;
+        text-align: left;
+        padding: 5px 5px;
+    }
+
+    .blue-box3{
+        background-color: #064780;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .blue-box3 h2{
+        color: white;
+        padding-top: 40px;
+        display: inline-block;
+        border-bottom: solid 3px white;
+        font-size: 20px;
+    }
+
+    .blue-box3 p{
+        color: white;
+    }
+
+    .blue-box3 button{
+        background-color: red;
+        padding: 7px 50px 7px 50px;
+        font-size: 20px;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+/**iPhone8plus用**/
+@media screen and (max-width: 414px) {
+    header{
+        background-color: #EDEDF4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .catchy{
+        display: table;
+        width: 100%;
+    }
+
+    .catchy h3{
+        font-size: 10px;
+    }
+
+    .contact{
+        display: table-cell;
+        vertical-align: right;
+    }
+
+    .contact_button{
+        background-color: #064780;
+        color: white;
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+    .blue-box1{
+        background-color: #064780;
+        padding-top: 20px;
+        display: table;
+        width: 100%;
+    }
+
+    .iwamoto-img{
+        width: 130px;
+        height: 180px;
+        padding-left: 5%;
+    }
+
+    .maincatchy-pic{
+        display: table-cell;
+        width: 40%;
+        padding-left: 0%;
+    }
+
+    .maincatchy-words{
+        display: table-cell;
+        width: 60%;
+        font-size: 5px;
+        line-height: 30px;
+    }
+
+    .maincatchy-words strong{
+        font-size: 20px;
+    }
+
+    .white-box1{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .question-title{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .question-p{
+        text-align: center;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+
+    .gray-box1{
+        background-color:#EDEDF4;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .point-title{
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .points{
+        display: table;
+        width: 100%;
+    }
+
+    .point{
+        display: table-cell;
+        text-align: center;
+    }
+
+    .point img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .white-box2{
+        text-align: center;
+    }
+
+    .coaching-title{
+        padding-top: 40px;
+        font-size: 15px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+    }
+
+    .coaching-description{
+        text-align: center;
+        padding-bottom: 40px;
+        font-size: 10px;
+    }
+
+    .blue-box2{
+        background-color: #064780;
+        padding: 40px 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .reccomend-title{
+        color: white;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+
+    .reccomend-list{
+        background-color: white;
+        color: #064780;
+        margin-bottom: 10px;
+        font-size: 12px;
+        margin-left: -18%;
+    }
+
+    .service-title{
+        padding-top: 50px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+        font-size: 15px;
+    }
+
+    .service-title strong{
+        font-size: 20px;
+    }
+
+    .service1{
+        display: table;
+        width: 100%;
+        text-align: center;
+    }
+
+    .service-intro{
+        font-size: 10px;
+    }
+
+    .service1 h2{
+        font-size: 15px;
+    }
+
+    .service1 strong{
+        font-size: 20px;
+    }
+
+    .service-pic1{
+        display: table-cell;
+    }
+
+    .service-pic1 img{
+        width: 160px;
+        height: 80px;
+    }
+
+    .service-description1{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .service2{
+        display: table;
+        width: 100%;
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    .service2 h2{
+        font-size: 15px;
+    }
+
+    .service2 strong{
+        font-size: 20px;
+    }
+
+    .service-pic2{
+        display: table-cell;
+    }
+
+    .service-pic2 img{
+        width: 160px;
+        height: 80px;
+    }
+
+    .service-description2{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .problem{
+        padding-top: 50px;
+        font-size: 15px;
+    }
+
+    .solution{
+        padding-top: 50px;
+        font-size: 15px;
+        padding-bottom: 50px;
+    }
+
+    .solution strong{
+        color: red;
+        font-size: 20px;
+    }
+
+    .effectiveness{
+        font-size: 15px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+    }
+
+    .effectiveness-list{
+        background-color: #064780;
+        margin-bottom: 10px;
+        margin-right: 16%;
+        margin-left: 3%;
+        padding: 5px 5px;
+        font-size: 15px;
+        color: white;
+    }
+
+    .gray-box2{
+        background-color: #EDEDF4;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .prof{
+        padding-top: 50px;
+        font-size: 15px;
+    }
+
+    .gray-box2 img{
+        width: 240px;
+        height: 160px;
+    }
+
+    .gray-box2 h2{
+        font-size: 18px;
+    }
+
+    .gray-box2 h4{
+        font-size: 15px;
+    }
+
+    .gray-box2 p{
+        font-size: 10px;
+    }
+
+    .career{
+        padding-top: 40px;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 40px;
+    }
+
+    .white-box3{
+        text-align: center;
+    }
+
+    .white-box3 h2{
+        border-bottom: solid 3px #064780;
+        padding-top: 40px;
+        display: inline-block;
+        margin-bottom: 40px;
+        font-size: 15px;
+    }
+
+    .reputation{
+        background-color: #EDEDF4;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+        margin-bottom: 20px;
+    }
+
+    .reputation p{
+        display: inline-block;
+        text-align: left;
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+
+    .blue-box3{
+        background-color: #064780;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .blue-box3 h2{
+        color: white;
+        padding-top: 20px;
+        display: inline-block;
+        border-bottom: solid 3px white;
+        font-size: 15px;
+    }
+
+    .blue-box3 p{
+        color: white;
+        font-size: 10px;
+    }
+
+    .blue-box3 button{
+        background-color: red;
+        padding: 7px 50px 7px 50px;
+        font-size: 20px;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    footer h2{
+        font-size: 15px;
+    }
+
+    footer p{
+        font-size: 10px;
+    }
+}
+
+
+/**iPhone8用**/
+@media screen and (max-width: 375px) {
+    header{
+        background-color: #EDEDF4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .catchy{
+        display: table;
+        width: 100%;
+    }
+
+    .catchy h3{
+        font-size: 10px;
+    }
+
+    .contact{
+        display: table-cell;
+        vertical-align: right;
+    }
+
+    .contact_button{
+        background-color: #064780;
+        color: white;
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+    .blue-box1{
+        background-color: #064780;
+        padding-top: 20px;
+        display: table;
+        width: 100%;
+    }
+
+    .iwamoto-img{
+        width: 130px;
+        height: 160px;
+        padding-left: 5%;
+    }
+
+    .maincatchy-pic{
+        display: table-cell;
+        width: 40%;
+        padding-left: 0%;
+    }
+
+    .maincatchy-words{
+        display: table-cell;
+        width: 60%;
+        font-size: 4px;
+        line-height: 30px;
+    }
+
+    .maincatchy-words strong{
+        font-size: 15px;
+    }
+
+    .white-box1{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .question-title{
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .question-p{
+        text-align: center;
+        padding-top: 10px;
+        font-size: 8px;
+    }
+
+    .gray-box1{
+        background-color:#EDEDF4;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .point-title{
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .points{
+        display: table;
+        width: 100%;
+    }
+
+    .point{
+        display: table-cell;
+        text-align: center;
+    }
+
+    .point img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .white-box2{
+        text-align: center;
+    }
+
+    .coaching-title{
+        padding-top: 40px;
+        font-size: 12px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+    }
+
+    .coaching-description{
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 8px;
+    }
+
+    .blue-box2{
+        background-color: #064780;
+        padding: 40px 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .reccomend-title{
+        color: white;
+        padding-bottom: 30px;
+        font-size: 12px;
+    }
+
+    .reccomend-list{
+        background-color: white;
+        color: #064780;
+        margin-bottom: 10px;
+        font-size: 10px;
+        margin-left: -20%;
+    }
+
+    .service-title{
+        padding-top: 50px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+        font-size: 12px;
+    }
+
+    .service-title strong{
+        font-size: 20px;
+    }
+
+    .service1{
+        display: table;
+        width: 100%;
+        text-align: center;
+    }
+
+    .service-intro{
+        font-size: 8px;
+    }
+
+    .service1 h2{
+        font-size: 12px;
+    }
+
+    .service1 strong{
+        font-size: 20px;
+    }
+
+    .service-pic1{
+        display: table-cell;
+    }
+
+    .service-pic1 img{
+        width: 120px;
+        height: 60px;
+    }
+
+    .service-description1{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .service2{
+        display: table;
+        width: 100%;
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    .service2 h2{
+        font-size: 12px;
+    }
+
+    .service2 strong{
+        font-size: 20px;
+    }
+
+    .service-pic2{
+        display: table-cell;
+    }
+
+    .service-pic2 img{
+        width: 120px;
+        height: 60px;
+    }
+
+    .service-description2{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .problem{
+        padding-top: 50px;
+        font-size: 12px;
+    }
+
+    .solution{
+        padding-top: 50px;
+        font-size: 12px;
+        padding-bottom: 50px;
+    }
+
+    .solution strong{
+        color: red;
+        font-size: 20px;
+    }
+
+    .effectiveness{
+        font-size: 12px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+    }
+
+    .effectiveness-list{
+        background-color: #064780;
+        margin-bottom: 10px;
+        margin-right: 16%;
+        margin-left: 3%;
+        padding: 5px 5px;
+        font-size: 12px;
+        color: white;
+    }
+
+    .gray-box2{
+        background-color: #EDEDF4;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .prof{
+        padding-top: 50px;
+        font-size: 12px;
+    }
+
+    .gray-box2 img{
+        width: 240px;
+        height: 160px;
+    }
+
+    .gray-box2 h2{
+        font-size: 15px;
+    }
+
+    .gray-box2 h4{
+        font-size: 12px;
+    }
+
+    .gray-box2 p{
+        font-size: 8px;
+    }
+
+    .career{
+        padding-top: 40px;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 40px;
+    }
+
+    .white-box3{
+        text-align: center;
+    }
+
+    .white-box3 h2{
+        border-bottom: solid 3px #064780;
+        padding-top: 40px;
+        display: inline-block;
+        margin-bottom: 40px;
+        font-size: 12px;
+    }
+
+    .reputation{
+        background-color: #EDEDF4;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+        margin-bottom: 20px;
+    }
+
+    .reputation p{
+        display: inline-block;
+        text-align: left;
+        padding: 5px 5px;
+        font-size: 8px;
+    }
+
+    .blue-box3{
+        background-color: #064780;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .blue-box3 h2{
+        color: white;
+        padding-top: 20px;
+        display: inline-block;
+        border-bottom: solid 3px white;
+        font-size: 12px;
+    }
+
+    .blue-box3 p{
+        color: white;
+        font-size: 8px;
+    }
+
+    .blue-box3 button{
+        background-color: red;
+        padding: 7px 50px 7px 50px;
+        font-size: 15px;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    footer h2{
+        font-size: 12px;
+    }
+
+    footer p{
+        font-size: 8px;
+    }
+}
+
+
+/**iPhoneSE用**/
+@media screen and (max-width: 320px) {
+    header{
+        background-color: #EDEDF4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .catchy{
+        display: table;
+        width: 100%;
+    }
+
+    .catchy h3{
+        font-size: 8px;
+    }
+
+    .contact{
+        display: table-cell;
+        vertical-align: right;
+    }
+
+    .contact_button{
+        background-color: #064780;
+        color: white;
+        padding: 5px 5px;
+        font-size: 8px;
+    }
+    .blue-box1{
+        background-color: #064780;
+        padding-top: 20px;
+        display: table;
+        width: 100%;
+    }
+
+    .iwamoto-img{
+        width: 100px;
+        height: 130px;
+        padding-left: 5%;
+    }
+
+    .maincatchy-pic{
+        display: table-cell;
+        width: 40%;
+        padding-left: 0%;
+    }
+
+    .maincatchy-words{
+        display: table-cell;
+        width: 60%;
+        font-size: 3.5px;
+        line-height: 25px;
+    }
+
+    .maincatchy-words strong{
+        font-size: 12px;
+    }
+
+    .white-box1{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .question-title{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .question-p{
+        text-align: center;
+        padding-top: 10px;
+        font-size: 7px;
+    }
+
+    .gray-box1{
+        background-color:#EDEDF4;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .point-title{
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 10px;
+    }
+
+    .points{
+        display: table;
+        width: 100%;
+    }
+
+    .point{
+        display: table-cell;
+        text-align: center;
+    }
+
+    .point img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .white-box2{
+        text-align: center;
+    }
+
+    .coaching-title{
+        padding-top: 30px;
+        font-size: 10px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+    }
+
+    .coaching-description{
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 7px;
+    }
+
+    .blue-box2{
+        background-color: #064780;
+        padding: 20px 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .reccomend-title{
+        color: white;
+        padding-bottom: 20px;
+        font-size: 10px;
+    }
+
+    .reccomend-list{
+        background-color: white;
+        color: #064780;
+        margin-bottom: 10px;
+        font-size: 8px;
+        margin-left: -20%;
+    }
+
+    .service-title{
+        padding-top: 50px;
+        display: inline-block;
+        border-bottom: solid 3px #064780;
+        font-size: 10px;
+    }
+
+    .service-title strong{
+        font-size: 18px;
+    }
+
+    .service1{
+        display: table;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .service-intro{
+        font-size: 7px;
+    }
+
+    .service1 h2{
+        font-size: 10px;
+    }
+
+    .service1 strong{
+        font-size: 15px;
+    }
+
+    .service-pic1{
+        display: table-cell;
+    }
+
+    .service-pic1 img{
+        width: 110px;
+        height: 55px;
+    }
+
+    .service-description1{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .service2{
+        display: table;
+        width: 100%;
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    .service2 h2{
+        font-size: 10px;
+    }
+
+    .service2 strong{
+        font-size: 15px;
+    }
+
+    .service-pic2{
+        display: table-cell;
+    }
+
+    .service-pic2 img{
+        width: 110px;
+        height: 55px;
+    }
+
+    .service-description2{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .problem{
+        padding-top: 50px;
+        font-size: 10px;
+    }
+
+    .solution{
+        padding-top: 50px;
+        font-size: 10px;
+        padding-bottom: 50px;
+    }
+
+    .solution strong{
+        color: red;
+        font-size: 18px;
+    }
+
+    .effectiveness{
+        font-size: 10px;
+        display: inline-block;
+        border-bottom: solid 1px #064780;
+    }
+
+    .effectiveness-list{
+        background-color: #064780;
+        margin-bottom: 10px;
+        margin-right: 16%;
+        margin-left: 3%;
+        padding: 5px 5px;
+        font-size: 10px;
+        color: white;
+    }
+
+    .gray-box2{
+        background-color: #EDEDF4;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .prof{
+        padding-top: 50px;
+        font-size: 10px;
+    }
+
+    .gray-box2 img{
+        width: 240px;
+        height: 160px;
+    }
+
+    .gray-box2 h2{
+        font-size: 12px;
+    }
+
+    .gray-box2 h4{
+        font-size: 10px;
+    }
+
+    .gray-box2 p{
+        font-size: 7px;
+    }
+
+    .career{
+        padding-top: 20px;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 20px;
+    }
+
+    .white-box3{
+        text-align: center;
+    }
+
+    .white-box3 h2{
+        border-bottom: solid 1px #064780;
+        padding-top: 40px;
+        display: inline-block;
+        margin-bottom: 40px;
+        font-size: 10px;
+    }
+
+    .reputation{
+        background-color: #EDEDF4;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+        margin-bottom: 20px;
+    }
+
+    .reputation p{
+        display: inline-block;
+        text-align: left;
+        padding: 5px 5px;
+        font-size: 7px;
+    }
+
+    .blue-box3{
+        background-color: #064780;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .blue-box3 h2{
+        color: white;
+        padding-top: 20px;
+        display: inline-block;
+        border-bottom: solid 1px white;
+        font-size: 10px;
+    }
+
+    .blue-box3 p{
+        color: white;
+        font-size: 7px;
+    }
+
+    .blue-box3 button{
+        background-color: red;
+        padding: 7px 50px 7px 50px;
+        font-size: 12px;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    footer h2{
+        font-size: 10px;
+    }
+
+    footer p{
+        font-size: 7px;
+    }
+}
